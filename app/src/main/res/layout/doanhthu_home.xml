@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00FFFF"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    tools:context=".giaodien.DoanhThu.HomeDoanhThu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn Thời Gian Xem Doanh Thu"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textSize="40dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:text="Tháng:"/>
+
+            <Spinner
+
+                android:id="@+id/spnThang"
+                android:layout_width="100dp"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Năm:"/>
+
+            <Spinner
+
+                android:id="@+id/spnnam"
+                android:layout_width="130dp"
+                android:layout_height="35dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_xemdoanhthu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/edit_background_button"
+            android:text="Xem Doanh Thu"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btn_xemdanhxachhoadon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_background_button"
+            android:text="Xem Danh Sách Hóa Đơn"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

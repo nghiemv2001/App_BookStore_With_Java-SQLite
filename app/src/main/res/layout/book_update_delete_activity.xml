@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00FFFF"
+    android:padding="10dp"
+    tools:context=".giaodien.Sach.CHINHSUA_XOA_SACH">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_gravity="right"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:background="@drawable/edt_button_delete_update"
+            android:id="@+id/btn_update">
+        </Button>
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:background="@drawable/edt_button_delete_update"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Delete"
+            android:textSize="20dp">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loại sách:"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/spn_loaisach2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textSize="30dp"
+            android:text="Tên sách :"/>
+        <EditText
+            android:id="@+id/edt_tieude2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:ems="10"
+            android:hint="Tiêu đề:"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textSize="30dp"
+            android:text="Tác giả    :"/>
+        <EditText
+
+            android:id="@+id/edt_tacgia2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:ems="10"
+            android:hint="Tác giả:"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textSize="30dp"
+            android:text="Giá sách  :"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edt_gia2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:ems="10"
+            android:hint="Giá sách:"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textSize="30dp"
+            android:text="Số trang  :"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edt_sotrang2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:ems="10"
+            android:hint="Số trang:"
+            android:inputType="number" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textSize="30dp"
+            android:text="Số lượng :"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edt_soluongton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:ems="10"
+            android:hint="Số trang:"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imgbtn_add_shopping_cart"
+        android:layout_width="112dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_baseline_add_shopping_cart_24" />
+</LinearLayout>

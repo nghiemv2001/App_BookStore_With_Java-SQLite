@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable-v24/code_key.xml" value="0.158" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable-v24/date.xml" value="0.2325" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable-v24/ic_baseline_add_24.xml" value="0.1285" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable-v24/key.xml" value="0.249" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable-v24/shoppingcart.xml" value="0.1855" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable-v24/time.xml" value="0.208" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable/edit_backgroud.xml" value="0.1325" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable/edit_backgroud_button.xml" value="0.136" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable/edit_backgroud_editext.xml" value="0.1475" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable/edit_background_button.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable/edt_button_delete_update.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable/ic_baseline_add_shopping_cart_24.xml" value="0.173" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable/ic_baseline_home.xml" value="0.2455" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.249" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable/ic_delete_all.xml" value="0.173" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/drawable/user.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.19453125" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/account_login_activity.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/account_register_activity.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/activity_thong_ke_doanh_thu.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/activity_update_delete_thanh_toan.xml" value="0.2453125" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/activity_update_the_loai.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/add_book_activity.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/book_add_activity.xml" value="0.2453125" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/book_list_activity.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/book_update_delete_activity.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/chitietthanhtoan_activity.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/chitietthanhtoan_update_delete.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/custom_gridview_cell.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/danh_sach_loai_sach_activity.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/doanhthu_chart_bar.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/doanhthu_danhsachkhachhang.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/doanhthu_home.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/doanhthu_thongkedoanhthu.xml" value="0.176" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/home_activity.xml" value="0.16" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/home_custom_gridview_cell.xml" value="0.2453125" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/item_dong_the_loai_sach.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/item_home_custom_gridview_cell.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/item_khachhang.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/item_sach.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/item_thanh_toan.xml" value="0.4" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/list_book_activity.xml" value="0.19555143651529194" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/login_activity.xml" value="0.16" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/my_row_book.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/nguoidung_dangky.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/nguoidung_dangnhap.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/nguoidung_thongtinnguoidung.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/sach_add_activity.xml" value="0.2453125" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/sign_up_activity.xml" value="0.16" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/thanhtoan_chitietthanhtoan_activity.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/thanhtoan_ds_san_pham_activity.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/thanhtoan_thanhtoan.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/thanhtoan_update_delete_activity.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/theloai_add_activity.xml" value="0.2453125" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/theloai_list_activity.xml" value="0.2453125" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/theloai_update_delete_activity.xml" value="0.2453125" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/them_the_loai_activity.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/update_book_activity.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/layout/welcome_activity.xml" value="0.12" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/menu/menu_search.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/QuanLiThuVien/app/src/main/res/menu/my_menu.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.152" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00FFFF"
+    android:id="@+id/layout_dongsach"
+    tools:context=".giaodien.TheLoai.THEM_THELOAI">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="300dp">
+        <EditText
+            android:id="@+id/edt_theloai_add"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:ems="10"
+            android:hint="Tên loại"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btn_add_theloai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"
+            android:background="@drawable/edit_background_button"
+            android:text="Thêm Loại Sách"
+            android:textSize="20dp"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>

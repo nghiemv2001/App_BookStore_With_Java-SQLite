@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.quanlithuvien">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.level.full" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Nhà Sách"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanLiThuVien"
+        tools:targetApi="31">
+        <activity
+            android:name=".giaodien.map.Map_Google"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA8t_EqvtseMc5hufEDq7SRr26jgZ7BDtE" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:exported="true" />
+
+        <activity
+            android:name=".QRcode.QRcodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".giaodien.dangnhap_dangky.DangNhap"
+            android:exported="false" />
+        <activity
+            android:name=".giaodien.DoanhThu.HomeDoanhThu"
+            android:exported="false"
+            android:parentActivityName=".giaodien.HomeActivity" />
+        <activity
+            android:name=".giaodien.dangnhap_dangky.ThongTinNguoiDung"
+            android:exported="false"
+            android:parentActivityName=".giaodien.HomeActivity" />
+        <activity
+            android:name=".giaodien.dangnhap_dangky.DangKy"
+            android:exported="false" />
+        <activity
+            android:name=".giaodien.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".giaodien.DoanhThu.ThongKeDoanhThu"
+            android:exported="false"
+            android:parentActivityName=".giaodien.DoanhThu.HomeDoanhThu" />
+        <activity
+            android:name=".giaodien.DoanhThu.DanhSachKhachHang"
+            android:exported="false"
+            android:parentActivityName=".giaodien.DoanhThu.HomeDoanhThu" />
+        <activity
+            android:name=".giaodien.Thanhtoan.SUA_XOA_THANHTOAN"
+            android:exported="false" />
+        <activity
+            android:name=".giaodien.Thanhtoan.CHITIETTHANHTOAN"
+            android:exported="false"
+            android:parentActivityName=".giaodien.Sach.DANHSACHSACH" />
+        <activity
+            android:name=".giaodien.Thanhtoan.Thanhtoan"
+            android:exported="false"
+            android:parentActivityName=".giaodien.Sach.DANHSACHSACH" />
+        <activity
+            android:name=".giaodien.TheLoai.CHINHSUA_XOA_THELOAI"
+            android:exported="false"
+            android:parentActivityName=".giaodien.TheLoai.DanhSachLoaiSach" />
+        <activity
+            android:name=".giaodien.TheLoai.DanhSachLoaiSach"
+            android:exported="false"
+            android:parentActivityName=".giaodien.HomeActivity" />
+        <activity
+            android:name=".giaodien.TheLoai.THEM_THELOAI"
+            android:exported="false"
+            android:parentActivityName=".giaodien.TheLoai.DanhSachLoaiSach" />
+        <activity
+            android:name=".giaodien.Sach.CHINHSUA_XOA_SACH"
+            android:exported="false"
+            android:parentActivityName=".giaodien.Sach.DANHSACHSACH" />
+        <activity
+            android:name=".giaodien.Sach.THEMSACH"
+            android:exported="false"
+            android:parentActivityName=".giaodien.Sach.DANHSACHSACH" />
+        <activity
+            android:name=".giaodien.Sach.DANHSACHSACH"
+            android:exported="false"
+            android:parentActivityName=".giaodien.HomeActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".giaodien.Welcome"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

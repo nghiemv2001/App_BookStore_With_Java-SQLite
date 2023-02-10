@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#00FFFF"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".giaodien.dangnhap_dangky.DangKy">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:text="Sign Up"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edt_ma_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_backgroud_editext"
+        android:drawableLeft="@drawable/edt_code_key"
+        android:hint="Code key"
+        android:textSize="30dp"></EditText>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/edt_tendangnhap_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_backgroud_editext"
+        android:drawableLeft="@drawable/user"
+        android:hint="Your name"
+        android:textSize="30dp"></EditText>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/edt_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_backgroud_editext"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:hint="Username"
+        android:textSize="30dp"></EditText>
+
+
+    <EditText
+        android:id="@+id/edt_sdt_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_backgroud_editext"
+        android:drawableLeft="@drawable/phone_number"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:textSize="30dp"></EditText>
+
+
+
+    <EditText
+        android:id="@+id/edt_matkhau_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_backgroud_editext"
+        android:drawableLeft="@android:drawable/ic_lock_lock"
+        android:hint="Password"
+        android:textSize="30dp"></EditText>
+
+    <EditText
+        android:id="@+id/edt_xacnhanmatkhau_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_backgroud_editext"
+        android:drawableLeft="@android:drawable/checkbox_on_background"
+        android:hint="Confirm Password"
+        android:textSize="30dp"></EditText>
+
+    <android.widget.Button
+        android:id="@+id/btn_dangky"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_background_button"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="35dp"/>
+    <android.widget.Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/btn_cancle"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_background_button"
+        android:text="CANCLE"
+        android:textColor="@color/white"
+        android:textSize="35dp"/>
+
+</LinearLayout>
